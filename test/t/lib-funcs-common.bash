@@ -92,6 +92,7 @@ test_globals_whitelist=(
 	# Config-tweakable settings
 	default_file_mode
 	ignore_paths
+	notice_paths
 	priority_files
 	file_content_filters
 

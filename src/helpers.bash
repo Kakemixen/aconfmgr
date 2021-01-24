@@ -282,6 +282,9 @@ function SetFileProperty() {
 function IgnorePath() {
 	ignore_paths+=("$@")
 }
+function NoticePath() {
+	notice_paths+=("$@")
+}
 
 #
 # AddFileContentFilter PATTERN FUNCTION
